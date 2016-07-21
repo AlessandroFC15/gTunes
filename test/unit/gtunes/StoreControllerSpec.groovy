@@ -16,8 +16,9 @@ class StoreControllerSpec extends Specification {
     }
 
     void "test something"() {
-    	controller.index()
-    	expect:
-    		"Welcome to Heaven on Earth!" == response.text
+    	when:
+    		controller.index()
+    	then:
+    		"Are you surprised, motherfucker???" == response.text
     }
 }

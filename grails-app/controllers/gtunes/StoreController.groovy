@@ -2,7 +2,7 @@ package gtunes
 
 class StoreController {
 
-    def index() { 
-    	render "Welcome to Heaven on Earth!"
-    }
+    def index() {
+    	render "Are you surprised, motherfucker???"
+     }
 }
